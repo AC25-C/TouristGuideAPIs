@@ -2,7 +2,6 @@ package com.example.touristguideapi.tourism.controller;
 
 import com.example.touristguideapi.tourism.model.TouristAttraction;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
