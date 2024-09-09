@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Turist Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="IMG/Uden%20titel.png">
+    </div>
+    <div class="buttons">
+        <button>Forside</button>
+        <form action="http://localhost:8080/attractions" method="get">
+        <button>Attraktioner</button>
+        </form>
+    </div>
+</header>
+
+
+<main>
+    <section class="left">
+        <p>Siden her bliver benyttet af danskere til at se attraktioner rundt i københavn.</p>
+    </section>
+
+    <section class="right">
+        <div class="image-container">
+            <img src="IMG/havfrue.jpeg" alt="Billede 1">
+            <p>Her er et billede af den lille havfrue</p>
+            <a href="https://www.visitcopenhagen.dk/koebenhavn/planlaeg-din-tur/den-lille-havfrue-gdk586951">
+                <button type="button">Tryk her for at lære mere</button>
+            </a>
+        </div>
+        <div class="image-container">
+            <img src="IMG/chrisitansborg.jpg" alt="Billede 2">
+            <p>Her er et billede af Christiansborg</p>
+            <a href="https://www.christiansborgslot.dk/">
+                <button type="button">Tryk her for at lære mere </button></a>
+        </div>
+        <div class="image-container">
+            <img src="IMG/børsen.jpeg" alt="Billede 3">
+            <a href="https://borsen.dk/">
+            <button type="button">Tryk her for at lære mere </button></a>
+
+        </div>
+    </section>
+
+    <section class="form-section">
+        <form action="http://localhost:8080/attractions/add" method="POST">
+        <input type="text" name="name" placeholder="Name">
+        <input type="text" name="description" placeholder="Description">
+        <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Mit Website. Alle rettigheder forbeholdes.</p>
+        <div class="contact-info">
+            <a href="mailto:acac@acac.dk">Kontakt os</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
