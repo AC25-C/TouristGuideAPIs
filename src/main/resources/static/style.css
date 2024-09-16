@@ -91,7 +91,7 @@ footer {
 }
 
 .footer-content {
-    max-width: 1200px;
+    max-width: max-content;
     margin: 0 auto;
 }
 
